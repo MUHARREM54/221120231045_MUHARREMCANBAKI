@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00000094;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+header {
+    background-color: #ffffff00;
+    color: rgba(255, 255, 255, 0.901);
+    padding: 20px;
+    text-align: center;
+}
+.logo-container {
+    float: center; 
+    margin-right: right;
+    margin-left: 50; 
+}
+
+
+.logo {
+    width: 300px;
+    height: 300px; 
+    border-radius: 50%; 
+    margin-top: 80px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: -230px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+
+}
+.sidebar-right {
+    width: 200px; 
+    height: 200px;
+    text-align: center;
+    position: fixed; 
+    top: 50%; 
+    right: 0;
+    transform: translateY(-65%);
+    background-color: #fff3f300; 
+    color: rgb(255, 254, 254);
+}
+.sidebar-right {
+    border: 1px solid #020101;
+    padding: 10px; 
+}
+.sidebar-right h2 {
+    margin-bottom: -15px;
+    
+   
+}
+.sidebar-right li {
+    margin-bottom: 10px;
+}
+.sidebar-right li:hover {
+    background-color: #c7c6c679; 
+}
+
+.content {
+    flex-grow: 0;
+    padding: 0px;
+    background-color: #fa000000;
+    text-align: center;
+    
+} 
+.contact-info {
+    width: 98%; 
+    margin: 0  right;
+    text-align: right;
+    background-color: #ffffff00;
+}
+
+footer {
+    background-color: #1b1616;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1b161600;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+.social-links li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.social-links li a:hover {
+    text-decoration: center;
+}
+.sidebar-right a {
+    color: rgb(249, 249, 249); 
+}
+
